@@ -8,8 +8,11 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
-
+class LoginViewController: UIViewController
+{
+    
+    @IBOutlet weak var txtUserName: UITextField!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
