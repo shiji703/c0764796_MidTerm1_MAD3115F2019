@@ -54,6 +54,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="txtPassword" destination="TGg-Tq-87s" id="Lvf-l9-vvu"/>
+                        <outlet property="txtUserName" destination="GzO-iS-oVc" id="Qh5-Bt-TFj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
