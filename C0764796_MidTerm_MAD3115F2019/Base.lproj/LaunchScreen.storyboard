@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="midterm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WmU-iQ-QuM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Midterm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WmU-iQ-QuM">
                                 <rect key="frame" x="87" y="235" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -47,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="midterm.jpg" width="615" height="500"/>
+        <image name="Midterm.jpg" width="615" height="500"/>
     </resources>
 </document>

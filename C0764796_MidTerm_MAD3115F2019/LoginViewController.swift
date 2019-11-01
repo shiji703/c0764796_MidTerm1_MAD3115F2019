@@ -21,6 +21,19 @@ class LoginViewController: UIViewController
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func loginClick(_ sender: UIButton)
+    {
+        self.validateUser()
+    }
+    
+    func validateUser()
+    {
+        if(txtUserName.text == "shiji@gmail.com" && txtPassword == "shiji123")
+        {
+            
+        }
+    }
+    
     
 
 
