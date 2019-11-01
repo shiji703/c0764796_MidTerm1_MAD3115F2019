@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1A5AA0236BB6E60011F21D /* Midterm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A5A9F236BB6E60011F21D /* Midterm.jpg */; };
 		9B5641B1236B66B000EFE494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5641B0236B66B000EFE494 /* AppDelegate.swift */; };
 		9B5641B3236B66B000EFE494 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5641B2236B66B000EFE494 /* LoginViewController.swift */; };
 		9B5641B6236B66B000EFE494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5641B4236B66B000EFE494 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1A5A9F236BB6E60011F21D /* Midterm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Midterm.jpg; sourceTree = "<group>"; };
 		9B5641AD236B66B000EFE494 /* C0764796_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0764796_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5641B0236B66B000EFE494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B5641B2236B66B000EFE494 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				9B5641C3236B6F2A00EFE494 /* midterm.jpg */,
-				9B5641C2236B6E0E00EFE494 /* LaunchScreenImage */,
 				9B5641AF236B66B000EFE494 /* C0764796_MidTerm_MAD3115F2019 */,
 				9B5641AE236B66B000EFE494 /* Products */,
 			);
@@ -63,19 +64,13 @@
 				9B5641B0236B66B000EFE494 /* AppDelegate.swift */,
 				9B5641B2236B66B000EFE494 /* LoginViewController.swift */,
 				9B5641B4236B66B000EFE494 /* Main.storyboard */,
+				9B1A5A9F236BB6E60011F21D /* Midterm.jpg */,
 				9B5641B7236B66B100EFE494 /* Assets.xcassets */,
 				9B5641B9236B66B100EFE494 /* LaunchScreen.storyboard */,
 				9B5641BC236B66B100EFE494 /* Info.plist */,
 				9B5641C5236B804A00EFE494 /* CustomerViewController.swift */,
 			);
 			path = C0764796_MidTerm_MAD3115F2019;
-			sourceTree = "<group>";
-		};
-		9B5641C2236B6E0E00EFE494 /* LaunchScreenImage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LaunchScreenImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +134,7 @@
 				9B5641C4236B6F2B00EFE494 /* midterm.jpg in Resources */,
 				9B5641BB236B66B100EFE494 /* LaunchScreen.storyboard in Resources */,
 				9B5641B8236B66B100EFE494 /* Assets.xcassets in Resources */,
+				9B1A5AA0236BB6E60011F21D /* Midterm.jpg in Resources */,
 				9B5641B6236B66B000EFE494 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
