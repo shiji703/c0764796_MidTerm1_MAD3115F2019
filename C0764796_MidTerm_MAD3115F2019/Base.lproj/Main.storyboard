@@ -73,11 +73,32 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tmI-e1-Mt3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="customers" id="7T4-Op-Ht9"/>
+                    <navigationItem key="navigationItem" title="customers" id="7T4-Op-Ht9">
+                        <barButtonItem key="rightBarButtonItem" title="Add customer" id="AXr-od-fb2">
+                            <connections>
+                                <segue destination="K6g-e1-fdQ" kind="show" id="jH3-W2-ssW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKN-Yl-cgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1803" y="138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nBc-6M-lYl">
+            <objects>
+                <viewController id="K6g-e1-fdQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hOC-2p-0Oc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oAD-xJ-GWq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5XI-TG-qfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2491" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fBn-eV-XRM">
