@@ -28,14 +28,17 @@ class LoginViewController: UIViewController
     
     func validateUser()
     {
-        if(txtUserName.text == "shiji@gmail.com" && txtPassword == "shiji123")
-        {
-            
-        }
+        if(txtUserName.text == "shiji@gmail.com" && txtPassword.text == "shiji123")
+                
+            {
+                
+                let myStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                
+                let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! CustomerListTableViewController
+                self.present(nextVC, animated: true, completion: nil)
+                
     }
-    
-    
-
+  
+  }
 
 }
-

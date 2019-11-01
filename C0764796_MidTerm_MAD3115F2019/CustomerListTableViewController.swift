@@ -8,6 +8,6 @@
 
 import UIKit
 
-class CustomerViewController: NSObject {
+class CustomerListTableViewController: NSObject {
 
 }
