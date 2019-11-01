@@ -22,6 +22,8 @@ class LoginViewController: UIViewController
     }
     
     
+    @IBAction func btnLogin(_ sender: UIBarButtonItem) 
+    
     {
         self.validateUser()
     }

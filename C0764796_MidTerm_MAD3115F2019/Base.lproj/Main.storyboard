@@ -51,6 +51,7 @@
                     <navigationItem key="navigationItem" title="Sign in" id="cwz-ba-K7w">
                         <barButtonItem key="rightBarButtonItem" title="Login" id="vga-WF-Mwd">
                             <connections>
+                                <action selector="btnLogin:" destination="BYZ-38-t0r" id="HOn-cj-GSS"/>
                                 <segue destination="GgV-17-zVY" kind="show" id="1hf-QN-xpa"/>
                             </connections>
                         </barButtonItem>
