@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B1A5AA0236BB6E60011F21D /* Midterm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A5A9F236BB6E60011F21D /* Midterm.jpg */; };
+		9B49101F237602E80015517A /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49101E237602E80015517A /* AddCustomerViewController.swift */; };
 		9B5641B1236B66B000EFE494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5641B0236B66B000EFE494 /* AppDelegate.swift */; };
 		9B5641B3236B66B000EFE494 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5641B2236B66B000EFE494 /* LoginViewController.swift */; };
 		9B5641B6236B66B000EFE494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5641B4236B66B000EFE494 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		9B1A5A9F236BB6E60011F21D /* Midterm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Midterm.jpg; sourceTree = "<group>"; };
+		9B49101E237602E80015517A /* AddCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
 		9B5641AD236B66B000EFE494 /* C0764796_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0764796_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5641B0236B66B000EFE494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B5641B2236B66B000EFE494 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				9B5641B9236B66B100EFE494 /* LaunchScreen.storyboard */,
 				9B5641BC236B66B100EFE494 /* Info.plist */,
 				9B9BC4A2236CD33400CA4297 /* CustomerListTableViewController.swift */,
+				9B49101E237602E80015517A /* AddCustomerViewController.swift */,
 			);
 			path = C0764796_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B49101F237602E80015517A /* AddCustomerViewController.swift in Sources */,
 				9B5641B3236B66B000EFE494 /* LoginViewController.swift in Sources */,
 				9B9BC4A3236CD33400CA4297 /* CustomerListTableViewController.swift in Sources */,
 				9B5641B1236B66B000EFE494 /* AppDelegate.swift in Sources */,
